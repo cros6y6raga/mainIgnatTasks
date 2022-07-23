@@ -1,3 +1,36 @@
-.message {
+.header {
+    background-color: yellow;
+    display: flex;
+}
 
+.header__title {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    background-color: red;
+    border-radius: 5px;
+    position: relative;
+    height: 65px;
+}
+.header__title:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 45px;
+    border: 10px solid transparent;
+    border-right: 20px solid red;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.time {
+    color: yellow;
 }
