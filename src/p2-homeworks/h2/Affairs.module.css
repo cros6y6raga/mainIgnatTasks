@@ -1,3 +1,35 @@
-.someClass {
+.hw2 {
+    background-color: yellow;
+}
 
+.button {
+    margin: 10px;
+    width: 60px;
+    background: red;
+    outline: none;
+}
+
+.active {
+    background: yellow;
+}
+
+.affair {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+}
+
+.high {
+    color: lawngreen;
+}
+
+.middle {
+    color: deeppink;
+}
+
+.low {
+    color: aqua;
 }
